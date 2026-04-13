@@ -1,0 +1,12 @@
+# Never commit credentials or local-only files
+redshift_config.ini
+*.env
+.env
+config.ini
+*.pem
+*.key
+
+# Local scratch / working data
+*.tmp
+*.bak
+_scratch/
